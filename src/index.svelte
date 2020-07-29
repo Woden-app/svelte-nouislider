@@ -3,7 +3,7 @@ import { onMount, createEventDispatcher } from 'svelte'
 import noUiSlider from 'nouislider'
 import 'nouislider/distribute/nouislider.min.css'
 
-let slider
+export let slider
 const dispatch = createEventDispatcher()
 
 export let start
